@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "prefect-cert"
+version = "0.1.0"
+description = ""
+authors = ["Edmondo Porcu <edmondo.porcu@gmail.com>"]
+readme = "README.md"
+packages = [{include = "prefect_cert"}]
+
+[tool.poetry.dependencies]
+python = "3.10.0"
+prefect = "^2.10.9"
+httpx = "^0.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
